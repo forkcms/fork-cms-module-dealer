@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Dealer locater</name>
+	<version>1.1.0</version>
+	<requirements>
+		<minimum_version>3.5</minimum_version>
+	</requirements>
+	<description>
+		<![CDATA[
+			Module where you can find easily all dealer locators nearby.
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name><![CDATA[Arend Pijls]]></name>
+			<url><![CDATA[http://www.webplay.be]]></url>
+		</author>
+	</authors>
+	<events>
+		<event application="backend" name="after_add"><![CDATA[Triggered when a dealer locator is added.]]></event>
+		<event application="backend" name="after_add_brand"><![CDATA[Triggered when a brand is added.]]></event>
+		<event application="backend" name="after_delete"><![CDATA[Triggered when a dealer locator is deleted.]]></event>
+		<event application="backend" name="after_delete_brand"><![CDATA[Triggered when a brand is deleted.]]></event>
+		<event application="backend" name="after_edit"><![CDATA[Triggered when a dealer locator is edited.]]></event>
+		<event application="backend" name="after_edit_brand"><![CDATA[Triggered when a brand is edited.]]></event>
+	</events>
+</module>

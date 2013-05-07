@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <backend>
+  	<core>
+      <item type="label" name="Dealer">
+        <translation language="en"><![CDATA[dealer locator]]></translation>
+        <translation language="nl"><![CDATA[dealer locator]]></translation>
+      </item>
+  	</core>
+    <dealer>
+      <item type="label" name="Auto">
+        <translation language="en"><![CDATA[automatic]]></translation>
+        <translation language="nl"><![CDATA[automatisch]]></translation>
+      </item>
+      <item type="label" name="Brands">
+        <translation language="en"><![CDATA[brands]]></translation>
+        <translation language="nl"><![CDATA[merken]]></translation>
+      </item>
+      <item type="label" name="Dealers">
+        <translation language="en"><![CDATA[dealers]]></translation>
+        <translation language="nl"><![CDATA[verdelers]]></translation>
+      </item>
+      <item type="label" name="Distance">
+        <translation language="en"><![CDATA[distance]]></translation>
+        <translation language="nl"><![CDATA[afstand]]></translation>
+      </item>
+      <item type="label" name="Email">
+        <translation language="en"><![CDATA[email]]></translation>
+        <translation language="nl"><![CDATA[email]]></translation>
+      </item>
+      <item type="label" name="Fax">
+        <translation language="en"><![CDATA[fax]]></translation>
+        <translation language="nl"><![CDATA[fax]]></translation>
+      </item>
+      <item type="label" name="Hybrid">
+        <translation language="en"><![CDATA[hybrid]]></translation>
+        <translation language="nl"><![CDATA[hybrid]]></translation>
+      </item>
+      <item type="label" name="Km">
+        <translation language="en"><![CDATA[km]]></translation>
+        <translation language="nl"><![CDATA[kilomters]]></translation>
+      </item>
+      <item type="label" name="Limit">
+        <translation language="en"><![CDATA[limit]]></translation>
+        <translation language="nl"><![CDATA[limiet]]></translation>
+      </item>
+      <item type="label" name="Map">
+        <translation language="en"><![CDATA[map]]></translation>
+        <translation language="nl"><![CDATA[map]]></translation>
+      </item>
+      <item type="label" name="MapSettings">
+        <translation language="en"><![CDATA[map settings]]></translation>
+        <translation language="nl"><![CDATA[map opties]]></translation>
+      </item>
+      <item type="label" name="MapType">
+        <translation language="en"><![CDATA[map type]]></translation>
+        <translation language="nl"><![CDATA[map type]]></translation>
+      </item>
+      <item type="label" name="Miles">
+        <translation language="en"><![CDATA[miles]]></translation>
+        <translation language="nl"><![CDATA[mijlen]]></translation>
+      </item>
+      <item type="label" name="Roadmap">
+        <translation language="en"><![CDATA[road map]]></translation>
+        <translation language="nl"><![CDATA[wegenkaart]]></translation>
+      </item>
+      <item type="label" name="Satellite">
+        <translation language="en"><![CDATA[satellite]]></translation>
+        <translation language="nl"><![CDATA[satelliet]]></translation>
+      </item>
+      <item type="label" name="Site">
+        <translation language="en"><![CDATA[site]]></translation>
+        <translation language="nl"><![CDATA[site]]></translation>
+      </item>
+      <item type="label" name="Tel">
+        <translation language="en"><![CDATA[phone]]></translation>
+        <translation language="nl"><![CDATA[telefoon]]></translation>
+      </item>
+      <item type="label" name="Terrain">
+        <translation language="en"><![CDATA[terrain]]></translation>
+        <translation language="nl"><![CDATA[terein]]></translation>
+      </item>
+      <item type="label" name="Units">
+        <translation language="en"><![CDATA[units]]></translation>
+        <translation language="nl"><![CDATA[eenheden]]></translation>
+      </item>
+      <item type="label" name="ZoomLevel">
+        <translation language="en"><![CDATA[zoom level]]></translation>
+        <translation language="nl"><![CDATA[zoom level]]></translation>
+      </item>
+      <item type="message" name="NoBrandsFound">
+        <translation language="nl"><![CDATA[Geen merken gevonden]]></translation>
+        <translation language="en"><![CDATA[No brands found]]></translation>
+      </item>
+      <item type="error" name="NotNumeric">
+        <translation language="en"><![CDATA[only numbers]]></translation>
+        <translation language="nl"><![CDATA[alleen getallen]]></translation>
+      </item>
+      <item type="error" name="NoValidEmail">
+        <translation language="nl"><![CDATA[Geen geldige email]]></translation>
+        <translation language="en"><![CDATA[No valid email]]></translation>
+      </item>
+      <item type="label" name="IndividualMap">
+      	<translation language="nl"><![CDATA[widget: één verdeler / map]]></translation>
+        <translation language="en"><![CDATA[widget: individual dealer / map]]></translation>
+      </item>
+    </dealer>
+  </backend>
+  <frontend>
+    <core>
+      <item type="message" name="ViewOnBigMap">
+        <translation language="en"><![CDATA[View on google maps]]></translation>
+        <translation language="nl"><![CDATA[Bekijk op google maps]]></translation>
+      </item>
+      <item type="message" name="ViewOnMap">
+        <translation language="en"><![CDATA[View on maps]]></translation>
+        <translation language="nl"><![CDATA[Bekijk op de kaart]]></translation>
+      </item>
+      <item type="message" name="NumDealersFound">
+        <translation language="en"><![CDATA[%1$s dealers found]]></translation>
+        <translation language="nl"><![CDATA[%1$s verdelers gevonden]]></translation>
+      </item>
+      <item type="message" name="DealerNoItems">
+        <translation language="en"><![CDATA[No dealers found in specified location]]></translation>
+        <translation language="nl"><![CDATA[Er zijn geen verdelers gevonden in opgegeven locatie.]]></translation>
+      </item>
+      <item type="message" name="SellsTheseBrands">
+        <translation language="nl"><![CDATA[verkoopt deze merken]]></translation>
+        <translation language="en"><![CDATA[sells these brands]]></translation>
+      </item>
+	  <item type="error" name="AreaIsRequired">
+        <translation language="en"><![CDATA[City or Zip is required]]></translation>
+        <translation language="nl"><![CDATA[Postcode of stad is verplicht]]></translation>
+      </item>
+      <item type="label" name="Phone">
+        <translation language="en"><![CDATA[phone]]></translation>
+        <translation language="nl"><![CDATA[telefoon]]></translation>
+      </item>
+      <item type="label" name="Fax">
+        <translation language="en"><![CDATA[fax]]></translation> 
+        <translation language="nl"><![CDATA[fax]]></translation>
+      </item>
+      <item type="label" name="Site">
+        <translation language="en"><![CDATA[site]]></translation>
+        <translation language="nl"><![CDATA[site]]></translation>
+      </item>
+      <item type="label" name="CityOrZip">
+        <translation language="en"><![CDATA[City or zip]]></translation>
+        <translation language="nl"><![CDATA[Stad of postcode]]></translation>
+      </item>
+      <item type="label" name="TheClosestTo">
+        <translation language="en"><![CDATA[the closest to]]></translation>
+        <translation language="nl"><![CDATA[het dichtste bij]]></translation>
+      </item>
+      <item type="label" name="InNetherlands">
+        <translation language="en"><![CDATA[Only in the Netherlands]]></translation>
+        <translation language="nl"><![CDATA[Enkel vestigingen uit Nederland]]></translation>
+      </item>
+      <item type="label" name="InFrance">
+        <translation language="en"><![CDATA[Only in France]]></translation>
+        <translation language="nl"><![CDATA[Enkel vestigingen uit Frankrijk]]></translation>
+      </item>
+      <item type="label" name="InBelgium">
+        <translation language="en"><![CDATA[Only in Belgium]]></translation>
+        <translation language="nl"><![CDATA[Enkel vestigingen uit België]]></translation>
+      </item>
+      <item type="label" name="Brands">
+        <translation language="en"><![CDATA[brands]]></translation>
+        <translation language="nl"><![CDATA[merken]]></translation>
+      </item>
+      <item type="label" name="FindDealer">
+        <translation language="en"><![CDATA[find dealer]]></translation>
+        <translation language="nl"><![CDATA[vind verdeler]]></translation>
+      </item>
+      <item type="action" name="Locator">
+        <translation language="en"><![CDATA[locator]]></translation>
+        <translation language="nl"><![CDATA[verdeler]]></translation>
+      </item>
+      <item type="action" name="Brand">
+        <translation language="en"><![CDATA[brand]]></translation>
+        <translation language="nl"><![CDATA[merk]]></translation>
+      </item>
+    </core>
+  </frontend>
+</locale>
