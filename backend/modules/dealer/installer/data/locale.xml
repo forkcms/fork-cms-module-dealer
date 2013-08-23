@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <locale>
   <backend>
-  	<core>
+    <core>
       <item type="label" name="Dealer">
         <translation language="en"><![CDATA[dealer locator]]></translation>
         <translation language="nl"><![CDATA[dealer locator]]></translation>
       </item>
-  	</core>
+    </core>
     <dealer>
       <item type="label" name="Auto">
         <translation language="en"><![CDATA[automatic]]></translation>
@@ -38,7 +38,7 @@
       </item>
       <item type="label" name="Km">
         <translation language="en"><![CDATA[km]]></translation>
-        <translation language="nl"><![CDATA[kilomters]]></translation>
+        <translation language="nl"><![CDATA[kilometers]]></translation>
       </item>
       <item type="label" name="Limit">
         <translation language="en"><![CDATA[limit]]></translation>
@@ -101,7 +101,7 @@
         <translation language="en"><![CDATA[No valid email]]></translation>
       </item>
       <item type="label" name="IndividualMap">
-      	<translation language="nl"><![CDATA[widget: één verdeler / map]]></translation>
+        <translation language="nl"><![CDATA[widget: één verdeler / map]]></translation>
         <translation language="en"><![CDATA[widget: individual dealer / map]]></translation>
       </item>
     </dealer>
@@ -128,7 +128,7 @@
         <translation language="nl"><![CDATA[verkoopt deze merken]]></translation>
         <translation language="en"><![CDATA[sells these brands]]></translation>
       </item>
-	  <item type="error" name="AreaIsRequired">
+    <item type="error" name="AreaIsRequired">
         <translation language="en"><![CDATA[City or Zip is required]]></translation>
         <translation language="nl"><![CDATA[Postcode of stad is verplicht]]></translation>
       </item>
@@ -137,7 +137,7 @@
         <translation language="nl"><![CDATA[telefoon]]></translation>
       </item>
       <item type="label" name="Fax">
-        <translation language="en"><![CDATA[fax]]></translation> 
+        <translation language="en"><![CDATA[fax]]></translation>
         <translation language="nl"><![CDATA[fax]]></translation>
       </item>
       <item type="label" name="Site">
