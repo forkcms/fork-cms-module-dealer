@@ -76,7 +76,7 @@ class BackendDealerModel
 	{
 		// get db
 		$db = BackendModel::getContainer()->get('database');
-	
+
 		// get avatar file name
 		$imageFilname = (string) $db->getVar(
 			'SELECT avatar
@@ -279,7 +279,7 @@ class BackendDealerModel
 	{
 		// get db
 		$db = BackendModel::getContainer()->get('database');
-	
+
 		// build extra
 		$extra = array(
 			'module' => 'dealer',
@@ -304,7 +304,7 @@ class BackendDealerModel
 			'language' => $item['language'],
 			'edit_url' => BackendModel::createURLForAction('edit') . '&id=' . $item['id'])
 		);
-		
+
 		$db->update('modules_extras', $extra, 'id = ? AND module = ? AND type = ? AND action = ?', array($extra['id'], $extra['module'], $extra['type'], $extra['action']));
 
 		return $item['id'];
